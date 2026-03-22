@@ -24,11 +24,11 @@ const data = {
   },
   teams: [
     {
-      name: "Acme Inc",
+      name: "HRD SHOP",
       logo: (
         <GalleryVerticalEndIcon />
       ),
-      plan: "Enterprise",
+      plan: "ADMIN V2.0",
     },
     {
       name: "Acme Corp.",
