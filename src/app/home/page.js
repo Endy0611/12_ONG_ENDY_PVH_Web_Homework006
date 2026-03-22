@@ -1,6 +1,7 @@
+import CustomerHomepageCardComponent from '@/components/CustomerHomepageCardComponent'
+import ProductHomepageCardComponent from '@/components/ProductHomepageCardComponent'
 import React from 'react'
-import CustomerHomepageCardComponent from '../Component/CustomerHomepageCardComponent'
-import ProductHomepageCardComponent from '../Component/ProductHomepageCardComponent'
+
 
 const page = async () => {
     const res = await fetch("https://homework-api.noevchanmakara.site/api/v1/customers")
@@ -8,7 +9,7 @@ const page = async () => {
     const customer = data.payload
   return (
     <div>
-        <ProductHomepageCardComponent/>
+       <ProductHomepageCardComponent/>
        <CustomerHomepageCardComponent customers={customer.length} />
     </div>
   )
