@@ -19,7 +19,7 @@ export default function ProductHomepageCardComponent() {
           Macbook <span className="text-pink-500">Pro M5</span>
         </h2>
         <p className="text-slate-400 text-sm font-medium">
-          The future of workflow starts here.
+          
         </p>
       </div>
       <div className="relative z-10 flex items-center justify-center py-4 transition-transform duration-700 group-hover:scale-110 group-hover:-rotate-3">
