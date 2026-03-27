@@ -10,7 +10,7 @@ export default async function ProductsPage() {
   return (
     <main className="flex flex-wrap gap-6 justify-center p-10">
       {products.map((product) => (
-        <ProductCardComponent key = {product.id} product = {product} />
+        <ProductCardComponent key = {product.productId} product = {product} />
       ))}
     </main>
   );
