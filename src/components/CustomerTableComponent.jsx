@@ -23,7 +23,7 @@ const CustomerTableComponent = ({ customers }) => {
                 {customer.firstName} {customer.lastName}
               </p>
               <p className="text-xs text-gray-400">
-                ID: {customer.customerId.slice(0, 10)}...
+                ID: {customer.customerId.slice(0, 8)}...
               </p>
             </div>
             <div className="text-gray-600 flex items-center gap-2 text-sm">
