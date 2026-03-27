@@ -50,7 +50,7 @@ const data = {
     },
     {
       title: "Categories",
-      url: "/categories",
+      url: "/profiles",
       icon: (
         <BookOpen />
       ),

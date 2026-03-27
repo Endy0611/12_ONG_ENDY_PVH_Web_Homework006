@@ -12,7 +12,7 @@ export default function Custom404() {
       <div className="relative z-10 max-w-md">
         <h2 className="text-4xl font-bold mb-4 text-gray-900">Oops! Page not found.</h2>
         <p className="text-gray-500 mb-6">
-          The page you are looking for might have been removed, had its name changed, or is temporarily unavailable. Don't worry, our products are still here!
+          The page you are looking for might have been removed, had its name changed, or is temporarily unavailable. don't worry, our products are still here!
         </p>
         <div className="flex justify-center gap-4">
           <Link 

@@ -1,6 +1,4 @@
-import ProductCardComponent from "@/components/ProductCardComponent";
-
-
+import ProductList from "@/components/ProductList"; // Adjust path based on your folders
 
 export default async function ProductsPage() {
   const res = await fetch("https://homework-api.noevchanmakara.site/api/v1/products");
@@ -8,10 +6,8 @@ export default async function ProductsPage() {
   const products = data.payload;
 
   return (
-    <main className="flex flex-wrap gap-6 justify-center p-10">
-      {products.map((product) => (
-        <ProductCardComponent key = {product.productId} product = {product} />
-      ))}
+    <main className="p-10">
+      <ProductList initialProducts={products} />
     </main>
   );
 }
