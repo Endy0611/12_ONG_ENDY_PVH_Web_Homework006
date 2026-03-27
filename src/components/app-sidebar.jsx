@@ -63,29 +63,29 @@ const data = {
       ),
     },
   ],
-  projects: [
-    {
-      name: "Design Engineering",
-      url: "#",
-      icon: (
-        <FrameIcon />
-      ),
-    },
-    {
-      name: "Sales & Marketing",
-      url: "#",
-      icon: (
-        <PieChartIcon />
-      ),
-    },
-    {
-      name: "Travel",
-      url: "#",
-      icon: (
-        <MapIcon />
-      ),
-    },
-  ],
+  // projects: [
+  //   {
+  //     name: "Design Engineering",
+  //     url: "#",
+  //     icon: (
+  //       <FrameIcon />
+  //     ),
+  //   },
+  //   {
+  //     name: "Sales & Marketing",
+  //     url: "#",
+  //     icon: (
+  //       <PieChartIcon />
+  //     ),
+  //   },
+  //   {
+  //     name: "Travel",
+  //     url: "#",
+  //     icon: (
+  //       <MapIcon />
+  //     ),
+  //   },
+  // ],
 }
 
 export function AppSidebar({
@@ -101,7 +101,7 @@ export function AppSidebar({
         {/* <NavProjects projects={data.projects} /> */}
       </SidebarContent>
       <SidebarFooter>
-        <NavUser user={data.user} />
+        <button className="text-red-600 font-bold hover:bg-gray-200 py-4 rounded-lg">Sign Out</button>
       </SidebarFooter>
       <SidebarRail />
     </Sidebar>
